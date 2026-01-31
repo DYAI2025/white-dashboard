@@ -1,0 +1,5 @@
+{
+  "name": "DYAI Cloud Dashboard",
+  "description": "A minimalist, abstract-technical dashboard for the DYAI Development Ecosystem, featuring radial network visualizations and high-precision monochrome UI.",
+  "requestFramePermissions": []
+}
