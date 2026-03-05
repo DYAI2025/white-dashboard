@@ -5,7 +5,6 @@ import { Landing } from './pages/Landing';
 import { Projects } from './pages/Projects';
 import { MetricsPage } from './pages/Metrics';
 import { ProjectDetail } from './pages/ProjectDetail';
-import { CreateProject } from './pages/CreateProject';
 
 const App: React.FC = () => {
   return (
@@ -14,8 +13,6 @@ const App: React.FC = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Landing />} />
           <Route path="projects" element={<Projects />} />
-          {/* Specific route for "new" must come before dynamic :id route */}
-          <Route path="projects/new" element={<CreateProject />} />
           <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="metrics" element={<MetricsPage />} />
           {/* Placeholder for settings */}
